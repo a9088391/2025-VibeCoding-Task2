@@ -31,7 +31,7 @@
     .container {
       max-width: 1200px;
       margin: 0 auto;
-      padding: 0 1.5rem;
+      padding: 0 1rem;
       width: 100%;
     }
 
@@ -42,14 +42,15 @@
     }
 
     .section {
-      padding: 4rem 0;
+      padding: 3rem 0;
     }
 
     .section-title {
-      font-size: 2rem;
+      font-size: 1.75rem;
       margin-bottom: 1.5rem;
       color: #60a5fa;
       text-align: center;
+      word-wrap: break-word;
     }
 
     main {
@@ -81,17 +82,19 @@
 
     .nav {
       display: flex;
-      gap: 1.5rem;
+      gap: 0.5rem;
       list-style: none;
       margin: 0;
       padding: 0;
+      flex-wrap: wrap;
     }
 
     .nav-link {
       color: #cbd5e1;
       text-decoration: none;
       transition: color 0.3s ease;
-      padding: 0.5rem;
+      padding: 0.25rem 0.5rem;
+      font-size: 0.875rem;
     }
 
     .nav-link:hover {
@@ -325,8 +328,8 @@
     .skills-grid {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
-      gap: 2rem;
-      margin-top: 3rem;
+      gap: 1rem;
+      margin-top: 2rem;
     }
 
     .skill-item {
@@ -338,14 +341,14 @@
     }
 
     .skill-icon {
-      width: 80px;
-      height: 80px;
+      width: 60px;
+      height: 60px;
       border-radius: 50%;
       background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 100%);
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 2rem;
+      font-size: 1.5rem;
       color: #ffffff;
       box-shadow: 0 4px 12px rgba(96, 165, 250, 0.3);
       transition: all 0.3s ease;
@@ -359,7 +362,7 @@
     .skill-name {
       color: #e2e8f0;
       font-weight: 500;
-      font-size: 1rem;
+      font-size: 0.875rem;
     }
 
     @media (min-width: 768px) {
@@ -401,8 +404,8 @@
     .projects-grid {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      gap: 1.5rem;
-      margin-top: 3rem;
+      gap: 1rem;
+      margin-top: 2rem;
     }
 
     .project-card {
@@ -484,7 +487,7 @@
     .contact-methods {
       display: grid;
       grid-template-columns: 1fr;
-      gap: 2rem;
+      gap: 1rem;
     }
 
     .contact-item {
